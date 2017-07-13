@@ -7,3 +7,16 @@
 .page-top > p {
      font-size: 1.5em;
 }
+#pictures {
+     /* Needed for navbar link location */
+     padding-top:50px;
+}
+.carousel-inner > .item > img {
+     /* Center images */
+     margin: 0 auto;
+}
+.carousel-control.left, .carousel-control.right {
+     /* Remove default background image */
+     background-image: none;
+}
+
